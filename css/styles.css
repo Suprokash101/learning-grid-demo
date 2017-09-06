@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*----------to avoid box model calculation problem----------*/
+    box-sizing: border-box;
+}
+
+body {}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: skyblue;
+    padding: 0 15px;
+}
+
+.row {
+    /*-------to avoid float related problem-------*/
+    overflow: hidden;
+    clear: both;
+}
+
+.row,
+.col1-inner-row,
+.col2-inner-row,
+.col3-inner-row,
+.col4-inner-row {
+    /*-------to negate container's and columns's padding------------*/
+    margin: 0 -15px;
+}
+
+.col1,
+.col2,
+.col3,
+.col4 {
+    float: left;
+    width: 25%;
+    /*-----------this padding is for aligning content-----------*/
+    padding: 0 15px;
+    background-color: grey;
+}
+
+.col2,
+.col4 {
+    background-color: red;
+}
