@@ -4,6 +4,9 @@
 }
 
 
+
+
+
 /*
 *   Learning positioning and z-index
 --------------------------
@@ -64,6 +67,9 @@
 }
 
 
+
+
+
 /* Standard menu css */
 
 .site-header {
@@ -83,6 +89,7 @@
 .primary-nav {
     float: right;
     position: relative;
+    z-index: 10;
 }
 
 .primary-nav>li {
@@ -104,10 +111,14 @@
 }
 
 
+
+
+
 /*Sub menu css*/
 
 .primary-nav .has_submneu {
     position: relative;
+    /*z-index: 10;*/
 }
 
 .primary-nav .submenu {
@@ -140,6 +151,9 @@
     font-size: 15px;
     font-family: 'FontAwesome';
 }
+
+
+
 
 
 /*Mega menu*/
@@ -175,6 +189,9 @@
     opacity: 1;
     visibility: visible;
 }
+
+
+
 
 
 /*Hero section*/
@@ -228,6 +245,9 @@
 }
 
 
+
+
+
 /*Feature section*/
 
 .featres-section {
@@ -257,6 +277,9 @@
     font-size: 24px;
     margin-bottom: 20px;
 }
+
+
+
 
 
 
